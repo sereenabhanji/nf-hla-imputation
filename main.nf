@@ -4,7 +4,9 @@
 * Year: 2024
 */
 
-params.input_vcf = file('./Panel/CAG_panel.bgl.phased.vcf.gz')
+// params.input_vcf = file('./Panel/CAG_panel.bgl.phased.vcf.gz')
+
+include { bcftools } from 'Users/sereenabhanji/bcftools'
 
 process count_variants {
 	debug true 
