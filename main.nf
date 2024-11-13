@@ -1,3 +1,5 @@
+#!/usr/bin/env nextflow
+
 /* 
 * Author: Sereena Bhanji <sereena.bhanji@mail.mcgill.ca>
 * Version: 0.0.0
